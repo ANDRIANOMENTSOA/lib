@@ -1,1 +1,17 @@
-ng-signature works!
+<ng-signature-pad
+  [points]="points"
+  [editable]="editable"
+  [emitOnDragEnd]="emitOnDragEnd"
+  [penColor]="penColor"
+  [showDoneButton]="showDoneButton"
+  [doneButtonText]="doneButtonText"
+  [doneButtonClass]="doneButtonClass"
+  [showClearButton]="showClearButton"
+  [clearButtonText]="clearButtonText"
+  [clearButtonClass]="clearButtonClass"
+  [format]="format"
+  [height]="height"
+  [width]="width"
+  [responsive]="responsive"
+  (done)="saveImage($event)"
+></ng-signature-pad>
