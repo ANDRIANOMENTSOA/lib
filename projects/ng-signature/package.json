@@ -3,11 +3,17 @@
   "version": "0.0.1",
   "peerDependencies": {
     "@angular/common": "^15.1.0",
-    "@angular/core": "^15.1.0"
+    "@angular/core": "^15.1.0",
+    "@ng-plus/signature-pad": "0.0.5"
   },
   "dependencies": {
     "@ng-plus/signature-pad": "0.0.5",
     "tslib": "^2.3.0"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "ngPackage": {
+    "whitelistedNonPeerDependencies": [
+      "@ng-plus/signature-pad"
+    ]
+  }
 }
